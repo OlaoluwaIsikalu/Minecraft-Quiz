@@ -10,9 +10,9 @@ const questionBank = [
         answer : 'The Creaking'
     }
     ,{
-        question: 'The year Minecraft was made in was .....',
-        option: ['2011', '1000', '1239', '1102'],
-        answer: '2011'
+        question: 'The shortest mob is .....',
+        option: ['Silverfish', 'Endermites', 'Kendrik Lamer', 'Mooshroom'],
+        answer: 'Endermites'
     },
     {
         question: 'The creator of Minecraft is .....',
@@ -174,7 +174,7 @@ function calcScore(e) {
     else{
         document.getElementById(e.id);
     }
-    setTimeout(nextQuestion,3000);
+    
 }
 function backToQuiz(){
     location.reload();
