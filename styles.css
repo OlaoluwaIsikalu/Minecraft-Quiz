@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(73, 16, 126, 0.8),rgba(115, 0, 255, 0.5)),url(/quizbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+}
+header{
+    align-items: center;
+    justify-self: center;
+}
+
+header .timer{
+    color: #850000;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    height: 45px;
+    padding: 0 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+}
+
+ header .timer .time_left_txt{
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+}
+
+ header .timer .timer_sec{
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #2d1444;
+    border: 1px solid #35134b;
+    user-select: none;
+}
+
+ header .time_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #61198d;
+}
+img{
+    width: 5.5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: rgb(217, 190, 233);
+    background: rgba(42, 15, 100, 0.645);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgba(155, 82, 203, 0.516);
+    cursor: default;
+    border-radius: 1rem;
+}
+#question{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem rgb(191, 0, 255);
+    width: 15rem;
+    background: rgba(98, 17, 152, 0.529);
+    border-radius: 1rem;
+}
+.option:hover{
+    color: rgb(93, 62, 130);
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(47, 1, 73);
+}
+
+
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(99, 40, 148);
+}
+.buttons{
+    text-align: center;
+   
+
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    border-radius: 1rem;
+    color: rgba(61, 18, 99, 0.98);
+    background: rgba(88, 18, 125, 0.82);
+}
+h1{
+    text-align: center;
+   margin-top: 10px;
+}
+button:active{
+    background: rgb(115, 12, 183);
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background: rgba(149, 0, 194, 0.559);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    display: none;
+    margin-top: 10px;
+}
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
