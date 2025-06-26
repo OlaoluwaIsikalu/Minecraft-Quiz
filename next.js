@@ -1,105 +1,110 @@
-const questionBank = [
-    {
-        question : 'The year Minecraft was made in was .....',
-        option : ['2011', '1000', '1239', '1102'],
-        answer : '2011'
-    },
-    {
-        question : 'The name of the new pale garden mob is .....',
-        option : ['The Weaking', 'The Creaking', 'The Zeclin', 'The Xenomorph'],
-        answer : 'The Creaking'
-    }
-    ,{
-        question: 'The shortest mob is .....',
-        option: ['Silverfish', 'Endermites', 'Kendrik Lamer', 'Mooshroom'],
-        answer: 'Endermites'
-    },
-    {
-        question: 'The creator of Minecraft is .....',
-        option: ['Markus Persson', 'Bill Gates', 'Elon Musk', 'Steve Jobs'],
-        answer: 'Markus Persson'
-    },
-    {
-        question: 'The name of the explosive mob is .....',
-        option: ['Zombie', 'Skeleton', 'Creeper', 'Ghast'],
-        answer: 'Creeper'
-    },
-    {
-        question: 'Minecraft\'s default player character is named .....',
-        option: ['Alex', 'Steve', 'Bob', 'Notch'],
-        answer: 'Steve'
-    },
-    {
-        question: 'Which material is needed to craft a Nether Portal .....',
-        option: ['Stone', 'Wood', 'Obsidian', 'Iron'],
-        answer: 'Obsidian'
-    },
-    {
-        question: 'The boss mob found in The End is the .....',
-        option: ['Wither', 'Ender Dragon', 'Ghast', 'Blaze'],
-        answer: 'Ender Dragon'
-    },
-    {
-        question: 'To craft a bed you need wool and .....',
-        option: ['Iron', 'String', 'Wood Planks', 'Leaves'],
-        answer: 'Wood Planks'
-    },
-    {
-        question: 'Which tool is used to chop wood the fastest .....',
-        option: ['Pickaxe', 'Shovel', 'Axe', 'Hoe'],
-        answer: 'Axe'
-    },
-    {
-        question: 'The Nether dimension is mainly filled with .....',
-        option: ['Water', 'Ice', 'Lava', 'Slime'],
-        answer: 'Lava'
-    },
-    {
-        question: 'The item used to light a Nether Portal is .....',
-        option: ['Torch', 'Flint and Steel', 'Firework', 'Lava Bucket'],
-        answer: 'Flint and Steel'
-    },
-    {
-        question: 'Cows in Minecraft drop leather and .....',
-        option: ['Feathers', 'Milk', 'Wool', 'Porkchop'],
-        answer: 'Milk'
-    },
-    {
-        question: 'Which of these ores is green .....',
-        option: ['Iron', 'Diamond', 'Emerald', 'Coal'],
-        answer: 'Emerald'
-    },
-    {
-        question: 'Wolves can be tamed with .....',
-        option: ['Meat', 'Fish', 'Bone', 'String'],
-        answer: 'Bone'
-    },
-    {
-        question: 'Which mob lives underwater .....',
-        option: ['Zombie', 'Squid', 'Blaze', 'Enderman'],
-        answer: 'Squid'
-    },
-    {
-        question: 'The game mode where players cannot die is .....',
-        option: ['Survival', 'Adventure', 'Creative', 'Hardcore'],
-        answer: 'Creative'
-    },
-    {
-        question: 'Which item restores health when eaten .....',
-        option: ['Diamond', 'Book', 'Apple', 'Stick'],
-        answer: 'Apple'
-    },
-    {
-        question: 'The plant used to craft paper is .....',
-        option: ['Cactus', 'Sugar Cane', 'Vines', 'Melon'],
-        answer: 'Sugar Cane'
-    },
-    {
-        question: 'A mob that can teleport and pick up blocks is .....',
-        option: ['Creeper', 'Skeleton', 'Enderman', 'Spider'],
-        answer: 'Enderman'
-    }
+const questionBank =
+[
+  {
+    question: 'Godspeed made his first appearance in The Flash series during season .....',
+    option: ['5', '3', '6', '7'],
+    answer: '5'
+  },
+  {
+    question: 'The real identity of the original Godspeed is .....',
+    option: ['August Heart', 'Hunter Zolomon', 'Eobard Thawne', 'Jay Garrick'],
+    answer: 'August Heart'
+  },
+  {
+    question: 'Godspeed’s costume color is primarily .....',
+    option: ['White and Gold', 'Black and Red', 'Blue and Silver', 'Green and Yellow'],
+    answer: 'White and Gold'
+  },
+  {
+    question: 'August Heart was a former colleague of Barry Allen at the .....',
+    option: ['CCPD', 'Star Labs', 'Iron Heights', 'Jitters'],
+    answer: 'CCPD'
+  },
+  {
+    question: 'Godspeed uses clones of himself to .....',
+    option: ['Steal speed', 'Travel time', 'Phase through objects', 'Create illusions'],
+    answer: 'Steal speed'
+  },
+  {
+    question: 'In Season 7, the “Godspeed War” takes place between Godspeed and .....',
+    option: ['His clones', 'Reverse-Flash', 'Barry Allen', 'Zoom'],
+    answer: 'His clones'
+  },
+  {
+    question: 'Godspeed’s clones cannot .....',
+    option: ['Speak properly', 'Run fast', 'Attack together', 'Create lightning'],
+    answer: 'Speak properly'
+  },
+  {
+    question: 'August Heart loses his memories when found in the year .....',
+    option: ['2049', '2022', '2019', '2100'],
+    answer: '2049'
+  },
+  {
+    question: 'Godspeed’s speed is artificially created using .....',
+    option: ['Velocity Formula', 'Dark Matter', 'Tachyons', 'A Speed Stone'],
+    answer: 'Velocity Formula'
+  },
+  {
+    question: 'To defeat Godspeed in Season 7, Barry teams up with .....',
+    option: ['Reverse-Flash', 'Cisco', 'Wally West', 'Nora Allen'],
+    answer: 'Reverse-Flash'
+  },
+  {
+    question: 'Godspeed desires to become the one and only .....',
+    option: ['Speedster', 'Flash', 'Time Traveler', 'Scientist'],
+    answer: 'Speedster'
+  },
+  {
+    question: 'Godspeed’s lightning color is typically .....',
+    option: ['White', 'Red', 'Blue', 'Yellow'],
+    answer: 'White'
+  },
+  {
+    question: 'The actor who plays Godspeed/August Heart in the series is .....',
+    option: ['Karan Oberoi', 'Teddy Sears', 'Tom Cavanagh', 'Logan Williams'],
+    answer: 'Karan Oberoi'
+  },
+  {
+    question: 'Godspeed is introduced as a villain who wants to gain control over .....',
+    option: ['The Speed Force', 'Time Travel', 'The Multiverse', 'Dark Matter'],
+    answer: 'The Speed Force'
+  },
+  {
+    question: 'One of the major battles between Barry and Godspeed occurs in .....',
+    option: ['Central City', 'Gorilla City', 'Keystone City', 'Metropolis'],
+    answer: 'Central City'
+  },
+  {
+    question: 'Godspeed views The Flash as his .....',
+    option: ['Opposite', 'Friend', 'Mentor', 'Sidekick'],
+    answer: 'Opposite'
+  },
+  {
+    question: 'In the CW series, Godspeed’s personality is best described as .....',
+    option: ['Obsessive and ruthless', 'Joyful and silly', 'Calm and peaceful', 'Lazy and aloof'],
+    answer: 'Obsessive and ruthless'
+  },
+  {
+    question: 'To restore his memories, August Heart uses .....',
+    option: ['Advanced tech from Gideon', 'A neural amplifier', 'Speed therapy', 'Time remnants'],
+    answer: 'A neural amplifier'
+  },
+  {
+    question: 'Godspeed’s clone problem was solved by merging with the .....',
+    option: ['Negative Speed Force', 'Original Speed Force', 'Still Force', 'Time Vault'],
+    answer: 'Original Speed Force'
+  },
+  {
+    question: 'Barry creates a lightsaber duel with speed against Godspeed using .....',
+    option: ['Speed lightning constructs', 'Time echoes', 'Tachyon blades', 'Vibrational force'],
+    answer: 'Speed lightning constructs'
+  }
 ]
+
+
+
+
 
 var question = document.getElementById('question');
 var next = document.querySelector('.Next');
