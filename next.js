@@ -1,110 +1,116 @@
 const questionBank =
 [
+  // Math Questions
   {
-    question: 'Godspeed made his first appearance in The Flash series during season .....',
-    option: ['5', '3', '6', '7'],
-    answer: '5'
+    question: '12 by 12 .....',
+    option: ['67', '1212', '144', '0'],
+    answer: '144'
   },
   {
-    question: 'The real identity of the original Godspeed is .....',
-    option: ['August Heart', 'Hunter Zolomon', 'Eobard Thawne', 'Jay Garrick'],
-    answer: 'August Heart'
+    question: 'What is half of 50?',
+    option: ['5', '25', '15', '30'],
+    answer: '25'
   },
   {
-    question: 'Godspeed’s costume color is primarily .....',
-    option: ['White and Gold', 'Black and Red', 'Blue and Silver', 'Green and Yellow'],
-    answer: 'White and Gold'
+    question: '8 + 7 = .....',
+    option: ['14', '15', '16', '17'],
+    answer: '15'
   },
   {
-    question: 'August Heart was a former colleague of Barry Allen at the .....',
-    option: ['CCPD', 'Star Labs', 'Iron Heights', 'Jitters'],
-    answer: 'CCPD'
+    question: 'What is the square root of 81?',
+    option: ['8', '9', '10', '7'],
+    answer: '9'
   },
   {
-    question: 'Godspeed uses clones of himself to .....',
-    option: ['Steal speed', 'Travel time', 'Phase through objects', 'Create illusions'],
-    answer: 'Steal speed'
+    question: 'What is 100 divided by 4?',
+    option: ['20', '25', '40', '10'],
+    answer: '25'
   },
   {
-    question: 'In Season 7, the “Godspeed War” takes place between Godspeed and .....',
-    option: ['His clones', 'Reverse-Flash', 'Barry Allen', 'Zoom'],
-    answer: 'His clones'
+    question: '5 x 6 = .....',
+    option: ['30', '35', '25', '40'],
+    answer: '30'
   },
   {
-    question: 'Godspeed’s clones cannot .....',
-    option: ['Speak properly', 'Run fast', 'Attack together', 'Create lightning'],
-    answer: 'Speak properly'
+    question: '9 squared is .....',
+    option: ['18', '72', '81', '99'],
+    answer: '81'
+  },
+
+  // Literacy Questions
+  {
+    question: 'Choose the correct spelling:',
+    option: ['definately', 'definitely', 'defanitely', 'difinitely'],
+    answer: 'definitely'
   },
   {
-    question: 'August Heart loses his memories when found in the year .....',
-    option: ['2049', '2022', '2019', '2100'],
-    answer: '2049'
+    question: 'Which one is a noun?',
+    option: ['run', 'blue', 'book', 'quickly'],
+    answer: 'book'
   },
   {
-    question: 'Godspeed’s speed is artificially created using .....',
-    option: ['Velocity Formula', 'Dark Matter', 'Tachyons', 'A Speed Stone'],
-    answer: 'Velocity Formula'
+    question: 'Antonym of "Happy" is .....',
+    option: ['Glad', 'Joyful', 'Angry', 'Sad'],
+    answer: 'Sad'
   },
   {
-    question: 'To defeat Godspeed in Season 7, Barry teams up with .....',
-    option: ['Reverse-Flash', 'Cisco', 'Wally West', 'Nora Allen'],
-    answer: 'Reverse-Flash'
+    question: 'The past tense of "go" is .....',
+    option: ['goes', 'goed', 'went', 'gone'],
+    answer: 'went'
   },
   {
-    question: 'Godspeed desires to become the one and only .....',
-    option: ['Speedster', 'Flash', 'Time Traveler', 'Scientist'],
-    answer: 'Speedster'
+    question: 'Which word is a verb?',
+    option: ['play', 'green', 'beautiful', 'table'],
+    answer: 'play'
   },
   {
-    question: 'Godspeed’s lightning color is typically .....',
-    option: ['White', 'Red', 'Blue', 'Yellow'],
-    answer: 'White'
+    question: 'Fill in the blank: "She ___ to school every day."',
+    option: ['go', 'goes', 'gone', 'going'],
+    answer: 'goes'
   },
   {
-    question: 'The actor who plays Godspeed/August Heart in the series is .....',
-    option: ['Karan Oberoi', 'Teddy Sears', 'Tom Cavanagh', 'Logan Williams'],
-    answer: 'Karan Oberoi'
+    question: 'Synonym of "Big" is .....',
+    option: ['Tiny', 'Huge', 'Soft', 'Small'],
+    answer: 'Huge'
+  },
+
+  // General Knowledge Questions
+  {
+    question: 'What planet do we live on?',
+    option: ['Mars', 'Venus', 'Earth', 'Pluto'],
+    answer: 'Earth'
   },
   {
-    question: 'Godspeed is introduced as a villain who wants to gain control over .....',
-    option: ['The Speed Force', 'Time Travel', 'The Multiverse', 'Dark Matter'],
-    answer: 'The Speed Force'
+    question: 'Which animal is known as the King of the Jungle?',
+    option: ['Tiger', 'Elephant', 'Lion', 'Cheetah'],
+    answer: 'Lion'
   },
   {
-    question: 'One of the major battles between Barry and Godspeed occurs in .....',
-    option: ['Central City', 'Gorilla City', 'Keystone City', 'Metropolis'],
-    answer: 'Central City'
+    question: 'What color do you get when you mix red and blue?',
+    option: ['Purple', 'Green', 'Brown', 'Orange'],
+    answer: 'Purple'
   },
   {
-    question: 'Godspeed views The Flash as his .....',
-    option: ['Opposite', 'Friend', 'Mentor', 'Sidekick'],
-    answer: 'Opposite'
+    question: 'What is the capital of Nigeria?',
+    option: ['Lagos', 'Kano', 'Abuja', 'Ibadan'],
+    answer: 'Abuja'
   },
   {
-    question: 'In the CW series, Godspeed’s personality is best described as .....',
-    option: ['Obsessive and ruthless', 'Joyful and silly', 'Calm and peaceful', 'Lazy and aloof'],
-    answer: 'Obsessive and ruthless'
+    question: 'Which of these is a fruit?',
+    option: ['Carrot', 'Banana', 'Potato', 'Cabbage'],
+    answer: 'Banana'
   },
   {
-    question: 'To restore his memories, August Heart uses .....',
-    option: ['Advanced tech from Gideon', 'A neural amplifier', 'Speed therapy', 'Time remnants'],
-    answer: 'A neural amplifier'
+    question: 'How many continents are there?',
+    option: ['5', '6', '7', '8'],
+    answer: '7'
   },
   {
-    question: 'Godspeed’s clone problem was solved by merging with the .....',
-    option: ['Negative Speed Force', 'Original Speed Force', 'Still Force', 'Time Vault'],
-    answer: 'Original Speed Force'
-  },
-  {
-    question: 'Barry creates a lightsaber duel with speed against Godspeed using .....',
-    option: ['Speed lightning constructs', 'Time echoes', 'Tachyon blades', 'Vibrational force'],
-    answer: 'Speed lightning constructs'
+    question: 'Which ocean is the largest?',
+    option: ['Atlantic', 'Pacific', 'Indian', 'Arctic'],
+    answer: 'Pacific'
   }
 ]
-
-
-
-
 
 var question = document.getElementById('question');
 var next = document.querySelector('.Next');
